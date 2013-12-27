@@ -6,10 +6,10 @@
 //
 //
 
-#import "JSON.h"
-#import "NSString+JSON.h"
+#import "NRJSON.h"
+#import "NSString+NRJSON.h"
 
-@implementation JSON
+@implementation NRJSON
 
 + (id) jsonNamed: (NSString*)resource_name;
 {

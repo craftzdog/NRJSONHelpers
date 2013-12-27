@@ -1,14 +1,14 @@
 //
-//  NSDictionary+JSON.m
+//  NSArray+JSON.m
 //  Pods
 //
 //  Created by nora on 12/28/13.
 //
 //
 
-#import "NSDictionary+JSON.h"
+#import "NSArray+NRJSON.h"
 
-@implementation NSDictionary (JSON)
+@implementation NSArray (NRJSON)
 
 - (NSString*) toJSON;
 {

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (JSON)
+@interface NSString (NRJSON)
 
 - (id) parseAsJSON;
 

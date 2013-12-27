@@ -6,10 +6,10 @@
 //
 //
 
-#import "NSString+JSON.h"
+#import "NSString+NRJSON.h"
 #import <HDebug.h>
 
-@implementation NSString (JSON)
+@implementation NSString (NRJSON)
 
 - (id) parseAsJSON;
 {

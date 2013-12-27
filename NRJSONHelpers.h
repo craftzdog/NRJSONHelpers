@@ -9,9 +9,9 @@
 #ifndef Pods_NRJSONHelpers_h
 #define Pods_NRJSONHelpers_h
 
-#import "JSON.h"
-#import "NSArray+JSON.h"
-#import "NSDictionary+JSON.h"
-#import "NSString+JSON.h"
+#import "NRJSON.h"
+#import "NSArray+NRJSON.h"
+#import "NSDictionary+NRJSON.h"
+#import "NSString+NRJSON.h"
 
 #endif

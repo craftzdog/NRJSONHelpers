@@ -1,5 +1,5 @@
 //
-//  NSDictionary+JSON.h
+//  NSArray+JSON.h
 //  Pods
 //
 //  Created by nora on 12/28/13.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (JSON)
+@interface NSArray (NRJSON)
 
 - (NSString*) toJSON;
 
