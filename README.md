@@ -1,6 +1,6 @@
 # NRJSONHelpers
 
-A handy categories for encoding/decoding JSON data.
+Handy categories for encoding/decoding JSON data.
 
 # Usage
 
