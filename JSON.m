@@ -11,19 +11,19 @@
 
 @implementation JSON
 
-- (id) jsonNamed: (NSString*)resource_name;
++ (id) jsonNamed: (NSString*)resource_name;
 {
     return [self jsonNamed:resource_name
                   inBundle:[NSBundle mainBundle]];
 }
 
-- (id) jsonNamed: (NSString*)resource_name inBundleForClass: (Class)bundle_class;
++ (id) jsonNamed: (NSString*)resource_name inBundleForClass: (Class)bundle_class;
 {
     return [self jsonNamed:resource_name
                   inBundle:[NSBundle bundleForClass:bundle_class]];
 }
 
-- (id) jsonNamed: (NSString*)resource_name inBundle: (NSBundle*)bundle;
++ (id) jsonNamed: (NSString*)resource_name inBundle: (NSBundle*)bundle;
 {
     NSString* filepath = [bundle pathForResource:resource_name
                                           ofType:@"json"];

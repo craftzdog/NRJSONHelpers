@@ -10,8 +10,8 @@
 
 @interface JSON : NSObject
 
-- (id) jsonNamed: (NSString*)resource_name;
-- (id) jsonNamed: (NSString*)resource_name inBundleForClass: (Class)bundle_class;
-- (id) jsonNamed: (NSString*)resource_name inBundle: (NSBundle*)bundle;
++ (id) jsonNamed: (NSString*)resource_name;
++ (id) jsonNamed: (NSString*)resource_name inBundleForClass: (Class)bundle_class;
++ (id) jsonNamed: (NSString*)resource_name inBundle: (NSBundle*)bundle;
 
 @end
